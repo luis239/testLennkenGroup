@@ -87,7 +87,6 @@ public class MainActivity extends BaseActivity implements ProductAdapter.OnItemC
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            // action with ID action_refresh was selected
             case R.id.map_action:
                 Intent intent = new Intent(this, StoreLocationActivity.class);
                 startActivity(intent);
